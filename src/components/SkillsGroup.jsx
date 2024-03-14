@@ -103,11 +103,6 @@ const SkillsGroup = () => {
                                 return <Skills key={key} skillSet={value}/>;
                             })
                         }
-                        {/*<Skills skillSet={skillSets.frontend}/>*/}
-                        {/*<Skills skillSet={skillSets.backend}/>*/}
-                        {/*<Skills skillSet={skillSets.database}/>*/}
-                        {/*<Skills skillSet={skillSets.programming}/>*/}
-                        {/*<Skills skillSet={skillSets.mobile}/>*/}
                     </div>
                 </div>
             </div>
