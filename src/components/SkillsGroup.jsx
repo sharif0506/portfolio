@@ -1,7 +1,6 @@
 import Skills from "./Skills.jsx";
 
 const SkillsGroup = () => {
-
     const skillSets = {
         frontend: {
             id: 1,
@@ -18,7 +17,7 @@ const SkillsGroup = () => {
             ]
         },
         database: {
-            id: 2,
+            id: 3,
             title: "Database \n Management",
             skills: [
                 "MySQL", "SQLite", "MongoDB", "Redis", "Oracle"
@@ -28,21 +27,21 @@ const SkillsGroup = () => {
             id: 4,
             title: "Programming \n Languages",
             skills: [
-                "C Programming", "Python", "Java",
-            ]
-        },
-        mobile: {
-            id: 5,
-            title: "Mobile \n Development",
-            skills: [
-                "Ionic Framework", "React Native",
+                "C Programming", "Java", "Python", "TypeScript",
             ]
         },
         vcs: {
-            id: 6,
+            id: 5,
             title: "Version \n Controlling",
             skills: [
                 "Git", "SVN", "Github", "Gitlab", "Bitbucket",
+            ]
+        },
+        mobile: {
+            id: 6,
+            title: "Mobile \n Development",
+            skills: [
+                "Ionic Framework", "React Native",
             ]
         },
         devops: {
@@ -70,7 +69,7 @@ const SkillsGroup = () => {
             id: 10,
             title: "Documentation \n Skills",
             skills: [
-                "Microsoft Office", "Microsoft Powerpoint", "Excel", "LateX", "Google Docs"
+                "Microsoft Word", "Powerpoint", "Excel", "LateX", "Google Docs"
             ]
         },
         ai: {
@@ -87,14 +86,13 @@ const SkillsGroup = () => {
                 "REST API", "Facebook Graph API", "Stripe", "Unity"
             ]
         }
-
-
     };
 
     return (
-        <section className="intro">
-            <div className="container-fluid center">
-                <h1 className="mb-4">Skills & Expertise</h1>
+        <section className="skills">
+            <div className="container-fluid">
+                <h1 className="center mb-4">Skills & Expertise</h1>
+                {/*<p className="center">Technical Proficiencies: Empowering Innovation with Comprehensive Expertise</p>*/}
                 <div className="row">
                     <div className="row">
                         {
