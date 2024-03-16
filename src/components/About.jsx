@@ -7,7 +7,7 @@ const About = () => {
                 <h2 className="text-center mb-4">About Me</h2>
                 <div className="row">
                     <div className="col-md-12">
-                        <div className="row m-5">
+                        <div className="row mb-4">
                             <div className="col-md-6 center align-self-center">
                                 <div className="p-5 m-1 border rounded-5">
                                     <i className="fa-solid fa-award fs-3"></i>
