@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 .topNavBar {
     padding: 10px 20px;
 }
@@ -16,10 +18,9 @@ section {
 
 .profile-photo {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    margin-bottom: 20px;
+    max-width: 250px;
+    max-height: 250px;
+    /*object-fit: cover;*/
 }
 
 section h2 {
@@ -36,3 +37,8 @@ section p {
 .skills {
     margin: 0;
 }
+
+.about-photo{
+    max-height: 300px;
+}
+

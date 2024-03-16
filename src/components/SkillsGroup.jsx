@@ -89,11 +89,11 @@ const SkillsGroup = () => {
     };
 
     return (
-        <section className="skills">
+        <section className="skills" id="skills">
             <div className="container-fluid">
                 <h1 className="center mb-4">Skills & Expertise</h1>
                 {/*<p className="center">Technical Proficiencies: Empowering Innovation with Comprehensive Expertise</p>*/}
-                <div className="row">
+                <div className="row m-4">
                     <div className="row">
                         {
                             Object.keys(skillSets).map(key => {

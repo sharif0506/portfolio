@@ -6,13 +6,14 @@ import Intro from "./components/Intro.jsx";
 import SkillsGroup from "./components/SkillsGroup.jsx";
 import About from "./components/About.jsx";
 
+
 function App() {
   return (
-    <div className="container-fluid page-container">
+    <div className="container-fluid page-container p-5">
         <NavigationBar />
         <Intro />
-        <SkillsGroup />
         <About />
+        <SkillsGroup />
     </div>
   )
 }
