@@ -13,15 +13,6 @@ const Intro = () => {
                     <a type="button" className="btn btn-dark rounded-4 m-2" href={Resume} target="_blank">
                         <i className="fa-solid fa-download"></i> Download CV
                     </a>
-
-
-                    {/*
-
-                    import ExampleDoc from '......src/assets/files/exampleDoc.pdf'
-`
-
-
-                    */}
                     <button type="button" className="btn btn-primary rounded-4 m-2">
                         <i className="fa-solid fa-location-arrow"></i> Contact Me
                     </button>
