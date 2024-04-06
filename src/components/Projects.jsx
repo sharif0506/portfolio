@@ -27,7 +27,7 @@ const Projects = () => {
             id: 3,
             image: SmartIvr,
             title: "Smart IVR",
-            description: "Smart IVR for Web Application",
+            description: "Smart IVR brings Voice IVR to Web Application",
             url: "https://genuitysystems.com/smart_ivr.php"
         },
         {
