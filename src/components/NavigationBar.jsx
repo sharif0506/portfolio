@@ -10,10 +10,7 @@ const NavigationBar = () => {
                 <Nav className="mr-auto">
                     <Nav.Link href="#about">About</Nav.Link>
                     <Nav.Link href="#skills">Skills</Nav.Link>
-                    {/*<Nav.Link href="#contact">Experience</Nav.Link>*/}
-                    <Nav.Link href="#contact">Projects</Nav.Link>
-                    {/*<Nav.Link href="#contact">Education</Nav.Link>*/}
-                    {/*<Nav.Link href="#contact">Language</Nav.Link>*/}
+                    <Nav.Link href="#projects">Projects</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

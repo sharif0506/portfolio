@@ -5,6 +5,7 @@ import NavigationBar from "./components/NavigationBar.jsx";
 import Intro from "./components/Intro.jsx";
 import SkillsGroup from "./components/SkillsGroup.jsx";
 import About from "./components/About.jsx";
+import Projects from "./components/Projects.jsx";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Intro />
         <About />
         <SkillsGroup />
+        <Projects />
     </div>
   )
 }
