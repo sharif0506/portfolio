@@ -1,4 +1,5 @@
-import profilePhoto from '../../public/profile.png';
+import profilePhoto from '../assets/profile.png';
+import Resume from '../assets/Md_Sharifur_Rahman_2024_resume.pdf';
 
 
 const Intro = () => {
@@ -9,9 +10,18 @@ const Intro = () => {
                 <h1>Md Sharifur Rahman</h1>
                 <p> Programmer, Full Stack Web Developer and Tech Enthusiast </p>
                 <div className="justify-content-center">
-                    <button type="button" className="btn btn-dark rounded-4 m-2">
+                    <a type="button" className="btn btn-dark rounded-4 m-2" href={Resume} target="_blank">
                         <i className="fa-solid fa-download"></i> Download CV
-                    </button>
+                    </a>
+
+
+                    {/*
+
+                    import ExampleDoc from '......src/assets/files/exampleDoc.pdf'
+`
+
+
+                    */}
                     <button type="button" className="btn btn-primary rounded-4 m-2">
                         <i className="fa-solid fa-location-arrow"></i> Contact Me
                     </button>
