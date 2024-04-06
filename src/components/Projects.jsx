@@ -42,7 +42,7 @@ const Projects = () => {
 
     return (
         <section id="projects">
-            <h2>Software Projects</h2>
+            <h1 className="center mb-4">Software Projects</h1>
             <div className="row row-cols-1 row-cols-md-2 g-4">
                 {projectList.map(project => <Project key={project.id} {...project} />)}
             </div>
